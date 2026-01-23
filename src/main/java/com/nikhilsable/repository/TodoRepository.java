@@ -1,5 +1,8 @@
 package com.nikhilsable.repository;
 
-public interface EmployeeRepository {
-    
+import com.nikhilsable.entity.TodoEntity;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface TodoRepository extends JpaRepository<TodoEntity,Long> {
+
 }
