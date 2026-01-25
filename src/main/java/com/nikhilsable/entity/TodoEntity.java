@@ -19,7 +19,7 @@ public class TodoEntity {
     public Long id;
 
     @Column(nullable = false,unique = true)
-    private String task;
+    private String title;
 
     private Boolean completed;
 
