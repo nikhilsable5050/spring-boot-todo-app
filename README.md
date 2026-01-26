@@ -5,21 +5,35 @@ Provides full CRUD functionality to manage daily tasks.
 
 ---
 
+## 🌐 Live Demo (Deployed)
+
+🔗 **Backend Live URL:**  
+https://spring-boot-todo-app-production.up.railway.app/
+
+---
+
 ## 🚀 Features
-- Create, view, update, and delete todo tasks
-- Persistent storage with MySQL
-- Clean layered architecture (Controller, Service, Repository)
+- ✅ Create, read, update, and delete todo tasks
+- 🗄️ Persistent storage using **MySQL (Cloud Database)**
+- 🧱 Clean layered architecture:
+    - Controller
+    - Service
+    - Repository
+- 🔁 Automatic table creation using **Hibernate**
+- 🌍 Deployed on **Railway**
+- ✔️ GitHub Actions CI configured with **Java 21**
 
 ---
 
 ## 🧰 Tech Stack
-- Java
-- Spring Boot
-- Spring Data JPA (Hibernate)
-- MySQL
-- Thymeleaf
-- Maven
-- Lombok
+- **Java 21**
+- **Spring Boot**
+- **Spring Data JPA (Hibernate)**
+- **MySQL**
+- **Maven**
+- **Lombok**
+- **GitHub Actions (CI)**
+- **Railway (Deployment)**
 
 ---
 
