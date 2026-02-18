@@ -1,55 +1,31 @@
-Spring Boot Todo App 📝
+📝 Spring Boot Todo App
 
-Backend-focused Todo application 🛠️ built using Spring Boot 🌱, JPA 🗄️, and PostgreSQL 🐘.
-Provides full CRUD functionality to manage daily tasks.
+Backend Todo application built with Spring Boot, JPA, and PostgreSQL, providing full CRUD operations to manage daily tasks.
 
-🌐 Live Demo (Deployed)
+🌐 Live Demo
 
-🔗 Backend Live URL:
-https://spring-boot-todo-app-mynq.onrender.com/
+🔗 https://spring-boot-todo-app-mynq.onrender.com/
 
 🚀 Features
 
-✅ Create, read, update, and delete todo tasks
-🗄️ Persistent storage using PostgreSQL (Cloud Database)
-🧱 Clean layered architecture:
+Create, view, update, and delete tasks
 
-Controller
+PostgreSQL cloud database
 
-Service
+Clean layered architecture (Controller → Service → Repository)
 
-Repository
+Hibernate auto table creation
 
-🔁 Automatic table creation using Hibernate
-🌍 Deployed on Render
-✔️ GitHub Actions CI configured with Java 21
+Deployed on Render with Docker & CI pipeline
 
 🧰 Tech Stack
 
-Java 21
-
-Spring Boot
-
-Spring Data JPA (Hibernate)
-
-PostgreSQL
-
-Maven
-
-Lombok
-
-GitHub Actions (CI)
-
-Render (Deployment)
-
-Docker
+Java 21 • Spring Boot • Spring Data JPA • PostgreSQL • Maven • Lombok • Docker • Render
 
 ▶️ Run Locally
 
-Configure PostgreSQL in application.properties or environment variables.
+Configure PostgreSQL in application.properties or environment variables
 
-Run the Spring Boot application.
+Run the app
 
-Access at:
-
-http://localhost:8080
+Open: http://localhost:8080
